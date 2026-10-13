@@ -1,6 +1,6 @@
 
 def Leap_Year(year):
-    if year % 4 != 0:
+    if year % 4 != 0 and year % 100 != 0:
         return False
 
     if year % 100 == 0:
